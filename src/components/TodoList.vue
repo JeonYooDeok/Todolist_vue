@@ -19,7 +19,7 @@ div
         :done="item.done"
         :order="item.order"
         @change-done="() => toggleDone(item.id)"
-        @delete="() => deleteTodo(item.id)" />
+        @delete-item="() => deleteTodo(item.id)" />
     </div>
   </div>
 </template>

@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<!-- <script setup>
+<script setup>
 import { computed } from 'vue'
 import { useModal } from '../Hooks/useModal'
 import ModalAddTodo from './ModalAddTodo.vue'
@@ -40,7 +40,7 @@ const modalTitle = computed(() => {
       return ''
   }
 })
-</script> -->
+</script>
 
 <style scoped>
 .modal-container {
